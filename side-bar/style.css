@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    width: 150px;
+    border-right:1px solid  #D7DBDD;
+    background-color: #FCFDFD;
+    padding: 10px;
+}
+.sidebar-item{
+    
+        cursor: pointer;
+        padding: 5px 10px;
+        color: #16A2D7;
+        font-size: 12px;
+      
+}
+.sidebar-item.selected-item{
+    background-color: #EEF3F5;
+    border-radius: 4px;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #D7DBDD;
+    padding: 10px;
+}
+.form-footer-section{
+ display: flex;
+ align-items: center;
+}
+.form-footer-item + .form-footer-item{
+    margin-left: 5px;
+}
+.form-footer-feedback{
+    color: #86969C;
+    font-size: 12px;
+    line-height: 0;
+}
+.form-footer-spinner{
+    animation: formFooterSpinner 1s infinite steps(8, end);
+}
+@keyframes form-footer-spinner {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .button-clear {
+ 
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-size: 18px;
+  }
+  
