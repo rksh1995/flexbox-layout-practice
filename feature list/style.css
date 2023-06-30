@@ -1,0 +1,13 @@
+.featureListItem-container{
+    display: inline-flex;
+    align-items: center;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid;
+
+}
+.feature-list-reverse{
+    flex-direction: row-reverse;
+    
+}
+
