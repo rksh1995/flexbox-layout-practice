@@ -1,0 +1,45 @@
+/* CSS styles for the sidebar */
+.nav-container {
+  display: inline-flex;
+  height: 100vh;
+  flex-direction: column;
+  min-width: 20%;
+  gap: 24px;
+  align-items: start;
+  background-color: #212529;
+  color: white;
+}
+
+
+
+/* .nav-container .icon img {
+    height: 20px;
+  } */
+
+.nav-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container ul li {
+  margin-bottom: 10px;
+}
+
+.nav-container ul li a {
+  display: flex;
+  align-items: center;
+
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+.nav-container .active {
+  background-color: blue;
+}
+
+.nav-container ul li a i {
+  margin-right: 10px;
+}
+
+

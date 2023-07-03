@@ -1,0 +1,21 @@
+.nav-container ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap:45px;
+    font-size: 14px;
+    font-family: Arial;
+    color: #275ef5;
+    font-weight:400;
+    margin-top: 45px;
+}
+.nav-container ul li a{
+    text-decoration: none;
+}
+.nav-container .active{
+    background-color:  #275ef5;
+    color: white;
+    padding:14px 20px;
+    border-radius:4px;
+}
